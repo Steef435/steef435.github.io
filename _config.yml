@@ -1,10 +1,10 @@
 # Site settings
-title:       Pixyll
+title:       Just Steef435 Things
 email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+author:      Steef Hegeman
+description: "A blog about code, games and other things"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://steef435.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -21,7 +21,7 @@ enable_mathjax: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: steef435
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
