@@ -7,7 +7,7 @@ summary: A simple tutorial on how to create an extensible application using libp
 
 If you've been looking for easy ways to make your application extensible using "plugins", surely you must have come across a GObject extensions library called [libpeas](https://wiki.gnome.org/Projects/Libpeas). Its engine can seamlessly load GObject-based extension objects which act as "entry points" to the application. Currently, plugins written in C/Vala (shared object files), Python and Lua are supported.
 
-As a project I'm currently working on (more on that soon) requires a system like this, I decided to take a look. I must say, it took me a while to get it all to up and running. Which is why I decided to write a simple introduction in the hope that the journey will be less painful for others. The end goal is to make a small a Gtk+ window with buttons provided by plugins. The core of the application will be written in Vala, and plugin examples are provided in Python and Vala. Let's get started.
+As a project I'm currently working on (more on that soon) requires a system like this, I decided to take a look. I must say, it took me a while to get it all up and running. Which is why I decided to write a simple introduction in the hope that the journey will be less painful for others. The end goal is to make a small a Gtk+ window with buttons provided by plugins. The core of the application will be written in Vala, and plugin examples are provided in Python and Vala. Let's get started.
 
 ## What you need
 - Vala (obviously)
@@ -36,7 +36,7 @@ Just so you know: this will be most of the work.
 
 As our application consists of a simple Gtk window, we will define the window here. Furthermore, we will define an interface for the extension objects. For good measure, let's give our little app an original name. Like foo.
 
-{% highlight vala %}
+{% highlight csharp %}
 namespace Foo {
 
 	public class Window : Gtk.Window {
@@ -122,7 +122,7 @@ What we get:
 ## Part 2: the launcher
 Next, we create a launch point for our application. The contents of the file should be pretty straightforward:
 
-{% highlight vala %}
+{% highlight csharp %}
 void main(string[] args) {
 	Gtk.init(ref args);
 
@@ -157,7 +157,7 @@ Now you should be able to run the launcher using `./foo`. An empty window, great
 Finally, let's write some plugins! Libpeas plugins consist of at least two files: the actual plugin (a shared object file or a script) and a plugin file containing some information about the plugin. Let's start off by writing a plugin in Vala.
 
 ### Vala
-{% highlight vala %}
+{% highlight csharp%}
 class ValaExtension : Object, Foo.Extension {
 
 	public Foo.Window window { get; construct set; }
