@@ -93,9 +93,9 @@ Voorbeeldreactie: CuSO<sub>4</sub> $$\cdot$$ *n* H<sub>2</sub>O $$\rightarrow$$ 
 
 
 ## Titreren
-Titratie draait om twee oplossingen. Bij de ene oplossing is de concentratie van stof *A*, bij de andere is de concentratie van stof *B*, die met stof *A* reageert, onbekend. Het doel is om de concentratie van stof *B* te bepalen door zoveel van de vloeistof met stof *B* bij de vloeistof met *A* te mengen dat al het *A* en *B* in het mengsel met elkaar is gereageerd en er geen stof *A* of *B* meer in het mengsel over is.
+Titratie draait om twee oplossingen. Bij de ene oplossing is de concentratie van stof *A* bekend, bij de andere is de concentratie van stof *B*, die met stof *A* reageert, onbekend. Het doel is om de concentratie van stof *B* te bepalen door zoveel van de vloeistof met stof *B* bij de vloeistof met *A* te mengen dat al het *A* en *B* in het mengsel met elkaar is gereageerd en er geen stof *A* of *B* meer in het mengsel over is.
 
-Om dit punt te meten wordt een indicator toegevoegd. Bij het omslagpunt (kleur verandert) is deze situatie bereikt.
+Om dit punt te meten wordt eventueel een indicator toegevoegd. Bij het omslagpunt (kleur verandert) is deze situatie bereikt.
 
 Er zijn twee soorten titraties: volumetrisch en wegend. De berekeningen zijn bij beide ongeveer hetzelfde.
 
