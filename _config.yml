@@ -8,8 +8,13 @@ url:         "https://steef435.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
-google_analytics:
 google_verification:
+# Use either direct GA implementation or set up GTM account
+# - using both will skew your data (leave blank to not use at all)
+google_analytics:
+google_tag_manager:
+# Bing services
+bing_verification:
 
 # Optional features
 animated:             false
@@ -18,6 +23,7 @@ show_post_footers:    false
 show_social_icons:    false
 ajaxify_contact_form: false
 enable_mathjax: true
+extended_fonts: false
 
 # Disqus post comments
 # (leave blank to disable Disqus)
@@ -88,7 +94,7 @@ text:
       sent:     'Message sent!'
       error:    'Error!'
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-
+  og_locale: 'en_US'
 
 # Build settings
 markdown:     kramdown
