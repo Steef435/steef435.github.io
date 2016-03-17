@@ -4,7 +4,7 @@ email:       your_email@example.com
 author:      Steef Hegeman
 description: "A blog about code, games and other things"
 baseurl:     ""
-url:         "https://steef435.github.io"
+url:         "http://steef435.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
