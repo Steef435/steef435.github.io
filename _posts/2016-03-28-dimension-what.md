@@ -2,7 +2,7 @@
 layout: post
 title: Dimension... What?
 date: 2016-03-28
-summary: "This season's Dimension W: great start, disappointing end. A short and subjective anime review."
+summary: "This season's *Dimension W*: great start, disappointing end. A short and subjective anime review."
 ---
 
 "New anime from the creator of Darker than Black." That is what moved me to take a look at the anime adaption of *Dimension W*. According to *very* short research, Yuji Iwahara's role in this series wasn't more than *that guy that wrote the manga*, but that shouldn't scare you off right away. Not right away. Jokes aside, below is a rather short, subjective and spoiler-free review of this now finished anime series.
