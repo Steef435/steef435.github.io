@@ -1,28 +1,14 @@
----
-layout: default
----
-{% assign posts_count = (paginator.posts | size) %}
-
-<div class="home">
-  {% if posts_count > 0 %}
-    <div class="posts">
-      {% for post in paginator.posts %}
-        <div class="post py3">
-          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
-          <p class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </p>
-        </div>
-      {% endfor %}
-    </div>
-
-    {% include pagination.html %}
-  {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
-  {% endif %}
-</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Permanently moved</title>
+	</head>
+	<body>
+		<h1>Permanently moved</h1>
+		<p>This website has permanently moved away from Github Pages.</p>
+		<h2><a href="http://steefhegeman.com">Visit the new website at steefhegeman.com</a></h2>
+		<p>Some old content may be missing. If you can't find what you are looking for, you can roll back to an old version of the blog using the <a href="https://github.com/Steef435/steef435.github.io">git repository</a>.</p>
+		<p><a href="http://steefhegeman.com/posts/2017/04/30/from-jekyll-to-metalsmith/">Read more about the move here.</a></p>
+	</body>
+</html>
